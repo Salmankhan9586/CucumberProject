@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-09T13:40:56.596Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7568230300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.browserSteps()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To generate the all the shirts name in excel",
+        "description": "",
+        "id": "to-validate-the-website-functionality;to-generate-the-all-the-shirts-name-in-excel",
+        "after": [
+          {
+            "result": {
+              "duration": 1797309700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.endBrowse()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6071263800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should hit the link",
+            "match": {
+              "location": "StepDefinition.user_should_hit_the_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1079255600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User will move to Mens Fashion",
+            "match": {
+              "location": "StepDefinition.user_will_move_to_Mens_Fashion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 632390700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User will move to Mens Clothing",
+            "match": {
+              "location": "StepDefinition.user_will_move_to_Mens_Clothing()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6468207200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User will click Shirts option",
+            "match": {
+              "location": "StepDefinition.user_will_click_Shirts_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27854092300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User will genarate all the product names",
+            "match": {
+              "location": "StepDefinition.user_will_genarate_all_the_product_names()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the website functionality",
+    "description": "",
+    "id": "to-validate-the-website-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/browse.feature",
+    "tags": []
+  }
+]
